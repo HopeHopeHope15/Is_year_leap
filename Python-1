@@ -1,0 +1,8 @@
+#defines the year as a leap or not
+#accepts 1 argument (year), returns True if the year is leap and False if it's not.
+def is_year_leap (x):
+    y=x%4
+    if y==0:
+        print ('True')
+    else:
+        print ('False')
